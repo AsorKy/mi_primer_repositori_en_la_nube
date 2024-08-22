@@ -8,6 +8,7 @@
 -git add
 -git commit
 
+
 Agregamos un mensaje en Vim con ESC + I, ahora, para escapar de Vim CON ESC + SHIFT +ZZ.
 
 Luego, vemos un histórico de los commits y rechazamos un git add.
@@ -47,6 +48,7 @@ Generamos un commit correcto:
 -git branch branch_name
 -git checkout branch_name
 -git branch
+-git branch -m master main
 
 9)-Fusion de ramas:
 -git checkout rama_destino
@@ -57,7 +59,13 @@ Generamos un commit correcto:
 Gitk nos permitira tener una forma amigable de ver nuetro histórico de cambios.
 
 11)-Clonar un repo
-
 -git clone url
+
+12)-Crear un repo remoto:
+-git remote add origin repo_link
+-git remote
+-git branch main
+-git pull origin main
+-git pull origin main --alow-unrelated-histories
 
 
