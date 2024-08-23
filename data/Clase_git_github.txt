@@ -67,7 +67,5 @@ Gitk nos permitira tener una forma amigable de ver nuetro histórico de cambios.
 -git branch main
 -git pull origin main
 -git pull origin main --alow-unrelated-histories
--git push origin main
--git push -u origin main
 
 
